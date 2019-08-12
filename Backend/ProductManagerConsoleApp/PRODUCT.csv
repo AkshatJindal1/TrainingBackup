@@ -1,0 +1,27 @@
+ProductId,Product Name,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued
+1,"Alfalfa ddfdf","Sematophyllum Moss",56.00,1,1,1,false
+2,"Dimethicone Allantoin","Lecidella Lichen",28.00,2,2,2,false
+3,"TITANIUM DIOXIDE","Pitseed Goosefoot",12.00,3,3,3,true
+4,"ETHYL ALCOHOL","Longleaf Buckwheat",12.00,4,4,4,false
+5,"conjugated estrogens and medroxyprogesterone acetate","Longbract Wild Indigo",61.00,5,5,5,false
+6,"Aluminum Zirconium Tetrachlorohydrex GLY","Bristle Flax",55.00,6,6,6,true
+7,"Clindamycin in 5 Percent Dextrose","Oahu Lobelia",66.00,7,7,7,true
+8,"Ropinirole Hydrochloride","Watson's Snapdragon",56.00,8,8,8,true
+9,"Octinoxate","Mudplantain",38.00,9,9,9,false
+10,"Topiramate","Dicranum Moss",69.00,10,10,10,false
+11,"ALUMINUM CHLOROHYDRATE","Colusa Tidytips",13.00,11,11,11,true
+12,"tranylcypromine sulfate","Brownbeard Rice",11.00,12,12,12,true
+13,"dipyridamole","Twoleaf Waterweed",52.00,13,13,13,true
+14,"Clotrimazole","San Jacinto Bedstraw",82.00,14,14,14,true
+15,"Aspirin","Parthenice",100.00,15,15,15,true
+16,"METHYL SALICYLATE","Flowering Quince",68.00,16,16,16,true
+17,"Bethanechol Chloride","Germander Meadowsweet",13.00,17,17,17,false
+18,"Acetaminophen","Azure Penstemon",41.00,18,18,18,true
+19,"Ibuprofen and Diphenhydramine HCl","Cold-desert Phlox",81.00,19,19,19,true
+20,"betamethasone valerate","Diploicia Lichen",89.00,20,20,20,false
+21,"SELENIUM SULFIDE","Spanish Broom",57.00,21,21,21,false
+22,"TRICLOSAN","Western Red Columbine",50.00,22,22,22,true
+23,"Urea","Singleleaf Pinyon",56.00,23,23,23,true
+24,"Octinoxate and Titanium dioxide","Fuzzytongue Penstemon",89.00,24,24,24,true
+25,"Camphor Menthol Eucalyptus Oil rub","Parmotrema Lichen",69.00,25,25,25,false
+26,"Apple","50",100.00,1000,0,0,false

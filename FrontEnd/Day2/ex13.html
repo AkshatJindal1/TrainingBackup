@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery Demo</title>
+    <script>
+        console.log(typeof $);
+        console.log(typeof jQuery);
+    </script>
+    <script src="/assets/jquery/jquery-3.4.1.js"></script>
+    <script>
+        console.log(typeof $);
+        console.log(typeof jQuery);
+        console.log($ === jQuery);
+
+        $(function(){
+            //console.log('S("div").length is ', $("*").length);
+
+            //tag selector
+            //$("h1").css("border", "2px solid red");  
+
+            //id selector
+            // $("#list1").css("border", "2px solid red");
+
+            // parent child selector
+            // $("#list1 > li").css("border", "2px solid red");
+
+            //ancestor decendent
+            // $("#list1 li").css("border", "2px solid red");
+
+            //first elementt
+            // $("#list1 > li:first").css("border", "2px solid red");
+            // $("#list1 > li:last").css("border", "2px solid blue");
+            // $("#list1 > li:eq(2)").css("border", "2px solid green");
+            // $("li:even").css("background-color", "yellow");
+            
+            // $(".b.a").css("border", "2px solid red"); // both a and b
+            // $(".a").css("border", "2px solid red"); // only a
+            // $(".b").css("border", "2px solid red"); // only b
+            // $(".b, .a").css("border", "2px solid red"); //any one of a or b
+            
+
+
+        })
+        
+
+
+    </script>
+</head>
+<body>
+    <h1>JQuery Demo</h1>
+    <hr>
+    <h1>Akshat Jindal</h1>
+
+    <ul id="list1">
+        <li>list item 1</li>
+        <li class="a b">list item 2</li>
+        <li class="a">list item 3</li>
+        <li class="b">list item 4
+            <ul>
+                <li>sub item 1</li>
+                <li>sub item 2</li>
+                <li>sub item 3</li>
+                <li>sub item 4</li>
+                <li>sub item 5</li>
+            </ul>
+        </li>
+        <li>list item 5</li>
+    </ul>
+
+</body>
+</html>

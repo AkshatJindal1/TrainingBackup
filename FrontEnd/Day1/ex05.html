@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Example</title>
+
+    <style>
+        h3 {
+            color: grey;
+            font-size: 1.2em;
+            font-family: 'Barriecito', cursive;
+        }
+
+        ul > li {
+            border: 1px solid rgb(100, 5, 135);
+        }
+        /*Can also write only #list2 > li*/
+        ol#list2 > li {
+            background-color: #daad86;
+            border: 2px dashed #8e8741;
+        }
+
+        .medium {
+            width: 500px;
+        }
+
+        .bordered {
+            border: 10px dotted #ccc;
+            border-radius: 10px;
+        }
+
+        .circle {
+            border-radius: 50%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Examples</h1>
+    <h3>By Akshat</h3>
+    <hr>
+    <p>Browsers don't give errors...</p>
+
+    <img class= "medium bordered circle" src="/assets/images/tiger.jpg" alt="">
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ol type="i">
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+                <li>Sub Item 3</li>
+            </ol>
+        </li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    
+    <ol id="list2">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+</body>
+</html>

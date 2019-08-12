@@ -1,0 +1,20 @@
+img {
+    width: 250px;
+    /*border-radius: 15px;*/
+    margin: 20px;
+}
+
+#pic1:hover {
+    box-shadow: 10px 10px 20px #400;
+    transition-duration: 2s;
+}
+
+#pic2:hover {
+    transform: rotate(-20deg);
+    transition-duration: 1s;
+}
+
+#pic3:hover {
+    transform: scale(1.5) translateX(50px);
+    transition-duration: 2s;
+}

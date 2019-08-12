@@ -1,0 +1,21 @@
+package com.ps.util;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
+
+public class DbUtil {
+private DbUtil() {}
+	
+	public static Connection getConnection() throws ClassNotFoundException, SQLException {
+		ResourceBundle rb = ResourceBundle.getBundle("com.ps.util.jdbc-info");
+		String url = rb.getString("jdbc.url"),
+				username = rb.getString("jdbc.username"),
+				password = rb.getString("jdbc.password"),
+				driver = rb.getString("jdbc.driver_class_name");
+		Class.forName(driver);
+		return DriverManager.getConnection(url, username, password);
+	}
+
+}

@@ -1,0 +1,14 @@
+#puzzle > button {
+    width : 75px;
+    height: 75px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    /* background-color : #444; */
+    /* color: white; */
+    
+}
+
+#puzzle > button:hover {
+    background-color: #ccc;
+}

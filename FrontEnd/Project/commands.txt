@@ -1,0 +1,9 @@
+mongoimport --db assessment1 --jsonArray <path-to-json-file>
+
+mongod assesment1
+
+mongod --dbpath <path-to-mongodb data> --> to start the server
+
+
+nodemon callingprogram in node cmd to run the program
+

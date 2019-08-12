@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multiplication Table Demo</title>
+
+    <script src="./ex10.js"></script>
+</head>
+<body>
+    <h1>Multipliaction Table Demo</h1>
+    <hr>
+    <p>
+        <!-- for = "num" this gives accessibility by bringing cursor when we click on the text -->
+        <label for = "num"> Enter a number : </label> 
+        <form onsubmit="return printMultiplicationTable();">
+                <input type="text" id="num" placeholder="Enter a number" autofocus>  
+        <!-- <button id="btnPrint" onclick='printMultiplicationTable()'>Print table</button> -->
+        
+        
+            </form> 
+        <br><br>
+        <div id="d1">This is where the table will be printed!!</div>
+
+
+
+    </p>
+</body>
+</html>

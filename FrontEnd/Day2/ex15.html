@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Puzzle Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    <script src="/assets/jquery/jquery-3.4.1.js"></script>
+    <script src="./ex15.js"></script>
+
+    <link rel="stylesheet" href="./ex15.css">
+</head>
+<body>
+    <h1 class="alert alert-info">jQuery Puzzle Game</h1>
+    <hr>
+    <div class="container">
+
+        <div class ="row">
+            <button onclick="setSize(3)" class="col btn btn-primary">3*3</button> &nbsp;
+            <button onclick="setSize(4)" class="col btn btn-primary">4*4</button> &nbsp;
+            <button onclick="setSize(5)" class="col btn btn-primary">5*5</button> &nbsp;
+            </div>
+            <br/> <br/>
+
+        <div id="puzzle">
+        </div>
+        <br/> <br/>
+        <div class='row'>
+            <div id="validClicks" class='col'>Valid :    0</div>
+            <div id="invalidClicks" class='col'>Invalid :  0</div>
+        </div>
+    </div>
+    
+
+</body>
+</html>

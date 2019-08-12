@@ -1,0 +1,9 @@
+<ul class="list-group">
+	<li class="list-group-item"><a href="./">Home</a></li>
+	<li class="list-group-item"><a href="get-all-products">All Products</a></li>
+	<li class="list-group-item"><a href="get-discontinued-products">Discontinued Products</a></li>
+	<li class="list-group-item"><a href="get-out-of-stock-products">Out of Stock Products</a></li>
+	<li class="list-group-item"><a href="price-form">Products by Price Range</a></li>
+	<li class="list-group-item"><a href="product-form">Add New Products</a></li>
+	<li class="list-group-item"><a href="./">About Us</a></li>
+</ul>
